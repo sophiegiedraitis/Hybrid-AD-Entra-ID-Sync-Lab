@@ -87,3 +87,22 @@ Now we can go and set the static IP of DC!. This will allow Sync1 to be able to 
 </p>
 <img width="872" height="776" alt="static_ip" src="https://github.com/user-attachments/assets/be8a3cf0-79d6-4845-96b3-a7a60a16b6d6" />
 
+5. <p>
+Once the DC1 Server and Sync1 Server are setup, you want to configure the Sync1 sever to connect to the DC1 Server. Change the DNS of Sync1 to to be the IP address of DC1
+</p>
+
+<img width="872" height="776" alt="static_ip" src="https://github.com/user-attachments/assets/1090ca89-6394-4260-8652-5cd81dd7e698" />
+
+6. <p>
+ Then after changing it in Sync1 go and do
+ipconfig /flushdns
+
+ipconfig/all
+
+Then you want to enable ping ipv4 from each server
+
+windows+R: wf.msc
+
+Scroll down to file and print sharing rules and enable that for Ipv4 and have the servers ping each other to test out the connection
+</p>
+
