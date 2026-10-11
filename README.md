@@ -76,5 +76,14 @@ Once the DC1 server is created in VMware we will need to promote the server to a
 <img width="857" height="632" alt="Screenshot 2026-10-11 172359" src="https://github.com/user-attachments/assets/2186a1fa-a807-4d58-b1d9-3c21ade97cb9" />
 
                                                                                                                         
-3.
+3. <p>
+ Now we will go ahead and add-in the UPN domain on our Entra tenant to our list of domain choices in ADUC.
 </p>
+
+<img width="875" height="511" alt="Screenshot 2026-10-11 172957" src="https://github.com/user-attachments/assets/f8340113-676f-4bea-9ed7-772ae9e28b62" />
+
+4. <p>
+Now we can go and set the static IP of DC!. This will allow Sync1 to be able to find and communicate with DC1. 
+</p>
+<img width="872" height="776" alt="static_ip" src="https://github.com/user-attachments/assets/be8a3cf0-79d6-4845-96b3-a7a60a16b6d6" />
+
