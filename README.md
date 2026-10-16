@@ -106,3 +106,5 @@ windows+R: wf.msc
 Scroll down to file and print sharing rules and enable that for Ipv4 and have the servers ping each other to test out the connection
 </p>
 
+
+
